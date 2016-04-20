@@ -191,7 +191,7 @@ func createApps(tasksById map[string]marathonTaskList, marathonApps map[string]m
 
 		// Strip slash
 		if strings.HasPrefix(appId, "/") {
-		    appPath := appId[1:len(appId)]
+		    appPath = appId[1:len(appId)]
 		}
 
 		// build App from marathonApp
